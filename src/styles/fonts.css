@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-instrument {
+  font-family: var(--font-display);
+}
+
+.font-inter {
+  font-family: var(--font-body);
+}

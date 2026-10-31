@@ -1,0 +1,995 @@
+MASTER DEVELOPMENT PROMPT — ATLAS
+
+Comprehensive Interactive Geography Learning Platform
+
+You are an expert full-stack developer, UI/UX designer, educational content architect, and geospatial visualization specialist.
+
+Your task is to DESIGN, DEVELOP, AND IMPLEMENT a complete, production-quality interactive Geography learning platform called ATLAS.
+
+Do not merely generate a concept, mockup, landing page, or development plan. Build the actual functional website inside this Replit project.
+
+The objective is to create a comprehensive, visually sophisticated, interactive Geography encyclopedia containing all 135 mandatory learning topics, with fully functional navigation, search, learning progress, bookmarks, visualizations, and quizzes.
+
+Work autonomously. Make reasonable technical and design decisions without asking me to supply additional information or approve individual implementation steps.
+
+Do not stop after creating the homepage. Continue implementing the entire platform until the core requirements are satisfied.
+
+---
+
+1. PROJECT IDENTITY
+
+Project Name: ATLAS
+
+Project Type: Interactive Geography Encyclopedia and Learning Platform.
+
+Primary Audience: Indonesian high-school students, particularly SMA students.
+
+Primary Educational Language: Bahasa Indonesia.
+
+Website Interface Language: English.
+
+Educational Focus: Indonesian high-school Geography curriculum, extended with relevant international and advanced geographical knowledge.
+
+ATLAS should combine the experience of:
+
+- A comprehensive digital textbook.
+- An interactive geographical encyclopedia.
+- A scientific visualization laboratory.
+- A digital world atlas.
+- A personalized learning platform.
+
+The website should encourage exploration, independent learning, and deeper understanding of geographical phenomena.
+
+It must be academically serious without feeling like an ordinary school website.
+
+2. VISUAL ART DIRECTION
+
+Overall aesthetic
+
+Create an immersive, image-rich Geography platform inspired by:
+
+- National Geographic's editorial geographical storytelling.
+- Premium scientific magazines.
+- Beautifully curated Pinterest-style compositions.
+- Modern interactive digital atlases.
+- High-quality scientific publications.
+
+These are aesthetic references, not templates to reproduce.
+
+The website should feel like a premium geographical magazine transformed into an interactive educational platform.
+
+Avoid generic futuristic dashboards, repetitive card grids, excessive white backgrounds, and ordinary template-style layouts.
+
+Color palette
+
+Establish a consistent visual identity using navy, forest green, and geographical earth tones.
+
+Core palette:
+
+- Deep Navy: #102A43
+- Midnight Blue: #142D4E
+- Ocean Blue: #1D5B79
+- Forest Green: #245C45
+- Sage Green: #8FAF91
+- Emerald: #238B70
+- Warm Ivory: #F5F1E8
+- Sand: #D8C5A5
+- Earth Brown: #806247
+- Slate: #64748B
+- Soft White: #FAFAF7
+
+Accent colors:
+
+- Golden Yellow: #E5B94B
+- Terracotta: #C76D4B
+- Turquoise: #55A6A0
+
+Develop additional subject-specific accent palettes while maintaining ATLAS's recognizable identity.
+
+Photography and backgrounds
+
+Use beautiful, high-resolution geographical photographs throughout the platform.
+
+Prioritize legitimate image sources:
+
+- Unsplash
+- Pexels
+- Wikimedia Commons
+- NASA Image and Video Library
+- USGS
+- NOAA
+
+Use relevant images for each geographical subject.
+
+Examples:
+
+- Geology: volcanoes, mountains, geological formations.
+- Atmosphere: clouds, storms, atmospheric phenomena.
+- Hydrology: rivers, oceans, lakes, waterfalls.
+- Biosphere: forests, ecosystems, biodiversity.
+- Human Geography: cities, settlements, agricultural landscapes.
+- Regional Geography: distinctive landscapes from different continents.
+- Geospatial Technology: satellite imagery, maps, terrain models.
+
+Use large horizontal photographs, full-width image backgrounds, editorial image compositions, and atmospheric hero sections.
+
+Images must not be restricted to small thumbnails.
+
+Include appropriate attribution and source links wherever possible.
+
+Avoid unauthorized copyrighted images, watermarks, unrelated stock photography, and repetitive backgrounds.
+
+Homepage hero
+
+Create an impressive editorial homepage featuring:
+
+- Large geographical landscape photography.
+- The ATLAS identity and title.
+- A compelling editorial introduction.
+- An Explore Geography action.
+- A prominent topic search.
+- Subtle animated geographical elements.
+- An overview of the available learning materials.
+
+The homepage should immediately communicate the identity of a premium Geography encyclopedia.
+
+Typography
+
+Use a sophisticated combination of:
+
+- Expressive editorial display typography for major headings.
+- Highly readable sans-serif typography for educational materials.
+- Clear heading hierarchy.
+- Comfortable line heights.
+- Consistent spacing.
+- Appropriate text widths.
+
+Avoid excessively small educational text.
+
+Layout composition
+
+Use varied editorial layouts:
+
+- Full-width geographical photography.
+- Asymmetric image-and-text sections.
+- Large introductory headings.
+- Layered geographical illustrations.
+- Editorial pull quotes.
+- Scientific diagrams.
+- Comparison tables.
+- Interactive data visualizations.
+- Beautifully composed lesson introductions.
+
+Do not make every page look identical.
+
+3. LANGUAGE SYSTEM
+
+The interface and educational content must use different languages consistently.
+
+Website interface: English
+
+All navigation and UI elements must be in English.
+
+Examples:
+
+- Explore Geography
+- Learning Materials
+- Interactive Atlas
+- Visual Laboratory
+- Search Topics
+- Browse Categories
+- Your Learning Progress
+- Continue Learning
+- Related Topics
+- Explore Further
+- Take a Quiz
+- Mark as Completed
+- Save Bookmark
+- Previous Topic
+- Next Topic
+
+This applies to:
+
+- Navigation.
+- Buttons.
+- Search.
+- Filters.
+- Menus.
+- Dashboard.
+- Progress indicators.
+- Quiz controls.
+- Notifications.
+- Settings.
+- Bookmarks.
+- Interactive components.
+
+Educational content: Bahasa Indonesia
+
+All Geography educational content must primarily use natural, academically appropriate Bahasa Indonesia.
+
+This includes:
+
+- Definitions.
+- Explanations.
+- Learning objectives.
+- Classifications.
+- Scientific processes.
+- Case studies.
+- Examples.
+- Quiz questions.
+- Answer explanations.
+- Conclusions.
+
+English scientific terminology may appear in parentheses when useful.
+
+Examples:
+
+- Lempeng tektonik (Tectonic Plates).
+- Gelombang seismik (Seismic Waves).
+- Hiposentrum (Hypocenter).
+- Episentrum (Epicenter).
+- Penginderaan jauh (Remote Sensing).
+- Model Elevasi Digital (Digital Elevation Model).
+
+Do not mix English and Indonesian randomly within sentences.
+
+4. COMPLETE CURRICULUM — 135 MANDATORY TOPICS
+
+This is a strict curriculum requirement.
+
+Every topic must have:
+
+1. Its own unique topic ID.
+2. Its own accessible learning page.
+3. Actual educational content.
+4. Its own learning objectives.
+5. Relevant terminology.
+6. Examples or case studies.
+7. At least one relevant visual learning element.
+8. Related topic references.
+9. A quiz or comprehension assessment.
+10. A completion status.
+
+Do not omit, merge, or replace topics with placeholders.
+
+The following 19 categories and 135 topics must be implemented.
+
+A. Dasar-Dasar Ilmu Geografi
+
+1. Hakikat dan Konsep Dasar Geografi
+2. Sejarah Perkembangan Ilmu Geografi
+3. Objek Studi Geografi
+4. Aspek Fisik dan Sosial Geografi
+5. Konsep Esensial Geografi
+6. Prinsip-Prinsip Geografi
+7. Pendekatan Geografi
+8. Cabang-Cabang Ilmu Geografi
+
+B. Pemetaan dan Teknologi Geospasial
+
+9. Peta dan Kartografi
+10. Skala dan Proyeksi Peta
+11. Koordinat Geografis
+12. Penginderaan Jauh (Remote Sensing)
+13. Interpretasi Citra
+14. Sistem Informasi Geografis (SIG)
+15. Penelitian Geografi
+16. Metode dan Teknik Penelitian Geografi
+
+C. Litosfer dan Dinamika Bumi
+
+17. Struktur Lapisan Bumi
+18. Teori Tektonik Lempeng
+19. Dinamika Litosfer
+20. Tektonisme
+21. Vulkanisme
+22. Seisme (Gempa Bumi)
+23. Tenaga Endogen dan Eksogen
+24. Pelapukan
+25. Erosi
+26. Sedimentasi
+27. Gerakan Massa Tanah
+28. Bentuk Muka Bumi (Geomorfologi)
+29. Pedosfer dan Pembentukan Tanah
+30. Jenis dan Persebaran Tanah
+31. Konservasi Tanah
+
+D. Atmosfer, Cuaca, dan Iklim
+
+32. Atmosfer dan Struktur Lapisan Atmosfer
+33. Unsur-Unsur Cuaca dan Iklim
+34. Proses Terjadinya Hujan
+35. Klasifikasi Iklim
+36. Pola Angin Global dan Lokal
+37. Angin Muson
+38. El Niño dan La Niña
+39. Perubahan Iklim dan Pemanasan Global
+
+E. Hidrosfer dan Oseanografi
+
+40. Hidrosfer
+41. Siklus Hidrologi
+42. Perairan Darat
+43. Sungai dan Daerah Aliran Sungai (DAS)
+44. Danau, Rawa, dan Air Tanah
+45. Laut dan Karakteristiknya
+46. Arus Laut, Gelombang, dan Pasang Surut
+
+F. Biosfer dan Keanekaragaman Hayati
+
+47. Biosfer dan Ekosistem
+48. Bioma Dunia
+49. Persebaran Flora dan Fauna Dunia
+50. Persebaran Flora dan Fauna Indonesia
+51. Garis Wallace, Weber, dan Lydekker
+52. Keanekaragaman Hayati
+53. Konservasi Flora dan Fauna
+
+G. Geografi Indonesia
+
+54. Letak Astronomis, Geografis, dan Geologis Indonesia
+55. Posisi Strategis Indonesia
+56. Kondisi Fisik dan Sosial Wilayah Indonesia
+
+H. Sumber Daya Alam
+
+57. Sumber Daya Alam
+58. Persebaran Sumber Daya Mineral
+59. Sumber Daya Energi
+60. Sumber Daya Hutan dan Laut
+61. Pengelolaan Sumber Daya Alam
+
+I. Lingkungan Hidup dan Pembangunan Berkelanjutan
+
+62. Lingkungan Hidup dan Ekosistem
+63. Pencemaran Lingkungan
+64. Kerusakan Lingkungan
+65. Daya Dukung dan Daya Tampung Lingkungan
+66. Pembangunan Berkelanjutan
+67. Sustainable Development Goals (SDGs)
+68. Analisis Mengenai Dampak Lingkungan (AMDAL)
+
+J. Kependudukan
+
+69. Dinamika Kependudukan
+70. Komposisi dan Struktur Penduduk
+71. Piramida Penduduk
+72. Pertumbuhan dan Kepadatan Penduduk
+73. Persebaran Penduduk
+74. Kelahiran, Kematian, dan Migrasi
+75. Urbanisasi dan Transmigrasi
+76. Bonus Demografi
+77. Kualitas Penduduk dan Indeks Pembangunan Manusia (IPM)
+78. Permasalahan Kependudukan
+
+K. Mitigasi dan Kebencanaan
+
+79. Mitigasi dan Adaptasi Bencana
+80. Jenis-Jenis Bencana Alam
+81. Risiko, Kerentanan, dan Kapasitas Bencana
+82. Pemetaan Daerah Rawan Bencana
+83. Kesiapsiagaan dan Penanggulangan Bencana
+
+L. Wilayah dan Pembangunan Regional
+
+84. Konsep Wilayah dan Pewilayahan
+85. Wilayah Formal dan Fungsional
+86. Regionalisasi
+87. Pusat Pertumbuhan Wilayah
+88. Teori Tempat Sentral Christaller
+89. Teori Kutub Pertumbuhan Perroux
+90. Interaksi Antarruang
+91. Teori Gravitasi
+92. Teori Titik Henti (Breaking Point)
+
+M. Desa dan Kota
+
+93. Desa dan Karakteristiknya
+94. Kota dan Karakteristiknya
+95. Pola Keruangan Desa dan Kota
+96. Struktur Ruang Kota
+97. Teori Struktur Kota
+98. Interaksi Desa dan Kota
+99. Urbanisasi dan Perkembangan Kota
+100. Permasalahan Perkotaan
+
+N. Tata Ruang dan Perencanaan Wilayah
+
+101. Tata Ruang dan Perencanaan Wilayah
+102. Rencana Tata Ruang Wilayah (RTRW)
+103. Struktur Ruang dan Pola Ruang
+104. Penggunaan dan Perubahan Lahan
+105. Pembangunan Wilayah
+
+O. Geografi Regional Dunia
+
+106. Negara Maju dan Negara Berkembang
+107. Indikator Pembangunan Negara
+108. Ketimpangan Pembangunan Global
+109. Geografi Regional Asia
+110. Geografi Regional Eropa
+111. Geografi Regional Afrika
+112. Geografi Regional Amerika
+113. Geografi Regional Australia dan Oseania
+114. Geografi Kawasan Kutub
+115. Globalisasi dan Interaksi Global
+116. Kerja Sama Regional dan Internasional
+
+P. Geografi Ekonomi dan Politik
+
+117. Geografi Ekonomi
+118. Geografi Industri
+119. Geografi Pertanian
+120. Geografi Perdagangan dan Transportasi
+121. Geografi Pariwisata
+122. Geografi Politik dan Geopolitik
+
+Q. Geografi Lingkungan dan Isu Kontemporer
+
+123. Geografi Lingkungan
+124. Ekologi Manusia
+125. Ketahanan Pangan dan Air
+126. Transisi Energi
+
+R. Geografi Digital dan Teknologi Modern
+
+127. Kartografi Digital
+128. GPS dan GNSS
+129. Analisis Spasial
+130. Digital Elevation Model (DEM)
+
+S. Cabang Geografi Tematik
+
+131. Geografi Perkotaan
+132. Geografi Pedesaan
+133. Geografi Kesehatan
+134. Geografi Sosial
+135. Geografi Budaya
+
+5. EDUCATIONAL CONTENT ARCHITECTURE
+
+Every topic must have genuinely developed educational material.
+
+Do not generate only a title and a two-sentence description.
+
+Use the following educational structure as the standard:
+
+1. Pengantar Materi
+
+Introduce the geographical phenomenon and explain why it matters.
+
+2. Tujuan Pembelajaran
+
+Provide specific learning outcomes.
+
+3. Konsep dan Definisi
+
+Explain the fundamental concepts using scientifically accurate definitions.
+
+4. Pembahasan Mendalam
+
+Organize explanations into logical subsections.
+
+5. Klasifikasi dan Karakteristik
+
+Include relevant types, characteristics, classifications, and comparisons.
+
+6. Proses dan Mekanisme
+
+Explain how and why the geographical phenomenon occurs.
+
+7. Contoh dan Studi Kasus
+
+Include examples from Indonesia and international contexts.
+
+8. Visual Learning
+
+Provide relevant maps, scientific diagrams, graphs, illustrations, or interactive visualizations.
+
+9. Istilah Penting
+
+Explain important terminology.
+
+10. Kesimpulan
+
+Summarize the essential learning points.
+
+11. Uji Pemahaman
+
+Provide interactive questions and answer explanations.
+
+12. Explore Further
+
+Include reliable references and additional learning resources.
+
+Adapt the structure where appropriate.
+
+Specific requirements:
+
+- Quantitative topics must include formulas and worked examples.
+- Physical Geography must explain natural processes and mechanisms.
+- Regional Geography must include maps and regional comparisons.
+- Human Geography must discuss demographic, social, cultural, and economic patterns.
+- Geospatial technology must include practical applications and visual demonstrations.
+
+Prioritize the Indonesian high-school curriculum while extending the material with relevant advanced knowledge.
+
+Content quality requirements
+
+All explanations must be:
+
+- Scientifically accurate.
+- Clear and accessible.
+- Detailed enough for independent learning.
+- Logically structured.
+- Written in natural Indonesian.
+- Supported by credible references.
+- Connected to actual geographical phenomena.
+
+Do not fabricate statistics, research findings, or citations.
+
+Use credible educational and scientific sources, including:
+
+- Badan Informasi Geospasial (BIG).
+- Badan Meteorologi, Klimatologi, dan Geofisika (BMKG).
+- Badan Nasional Penanggulangan Bencana (BNPB).
+- Badan Pusat Statistik (BPS).
+- Badan Geologi.
+- NASA.
+- NOAA.
+- USGS.
+- IPCC.
+- UNESCO.
+- Relevant scientific publications.
+
+Distinguish established scientific facts from estimates and interpretations.
+
+6. WEBSITE PAGES AND NAVIGATION
+
+Build the following major sections.
+
+Homepage
+
+An immersive editorial landing page with:
+
+- Geographical hero photography.
+- ATLAS introduction.
+- Search functionality.
+- Featured topics.
+- Curriculum categories.
+- Featured geographical phenomena.
+- Learning progress overview.
+- Recently accessed topics.
+- Recommended learning materials.
+
+Learning Materials
+
+A complete searchable and filterable library of all 135 topics.
+
+Features:
+
+- Browse all topics.
+- Browse the 19 curriculum categories.
+- Search by topic title.
+- Search by keyword.
+- Search by definition.
+- Search by scientific terminology.
+- Filter by category.
+- Filter by difficulty.
+- Sort alphabetically or by curriculum order.
+- Display completion status.
+- Display bookmarks.
+- Display related topics.
+
+Category Landing Pages
+
+Each of the 19 categories must have its own landing page.
+
+Each landing page should include:
+
+- Relevant geographical photography.
+- Category introduction.
+- Category-specific color accents.
+- All topics belonging to that category.
+- Relevant visualizations.
+- Related categories.
+
+Individual Learning Pages
+
+Every topic must have its own detailed page.
+
+Include:
+
+- Topic title.
+- Category breadcrumb.
+- Relevant geographical hero image.
+- Introduction.
+- Learning objectives.
+- Detailed educational content.
+- Illustrations and diagrams.
+- Case studies.
+- Terminology.
+- References.
+- Related topics.
+- Previous and next navigation.
+- Bookmark control.
+- Mark as Completed control.
+- Quiz section.
+
+Interactive Atlas
+
+Create an interactive geographical exploration section.
+
+Where technically feasible, use Leaflet with OpenStreetMap or another appropriate mapping solution.
+
+Include:
+
+- World map.
+- Indonesia map.
+- Geographic markers.
+- Layer controls.
+- Relevant geographical phenomena.
+- Selected geographical case studies.
+- Links between map locations and learning materials.
+
+Visual Laboratory
+
+Create a dedicated interactive scientific visualization section.
+
+Include appropriate demonstrations such as:
+
+- Earth's internal structure.
+- Plate tectonics.
+- Volcano structure.
+- Earthquake wave propagation.
+- Rock cycle.
+- Water cycle.
+- Atmospheric circulation.
+- Global wind systems.
+- River systems.
+- Population pyramids.
+- Urban spatial models.
+- Map projections.
+- Elevation profiles.
+
+Interactive diagrams should include labels, explanations, and meaningful user controls.
+
+Learning Dashboard
+
+Create a personalized learning overview with:
+
+- Total available materials.
+- Completed materials.
+- Completion percentage.
+- Category progress.
+- Bookmarked materials.
+- Recently studied topics.
+- Continue Learning.
+- Quiz performance.
+
+Progress calculations must use actual saved learning data.
+
+7. INTERACTIVE FEATURES
+
+Implement real functionality, not decorative controls.
+
+Search
+
+Create a responsive search system that indexes:
+
+- Topic titles.
+- Topic descriptions.
+- Definitions.
+- Keywords.
+- Terminology.
+- Category names.
+
+Bookmarks
+
+Allow users to bookmark and remove individual materials.
+
+Persist bookmarks between sessions.
+
+Learning progress
+
+Allow users to mark topics as completed and reverse that status.
+
+Track progress individually for all 135 topics.
+
+Quizzes
+
+Every topic must include a short interactive assessment.
+
+Requirements:
+
+- Multiple-choice questions.
+- Answer selection.
+- Correct and incorrect feedback.
+- Explanations in Indonesian.
+- Score calculation.
+- Final result.
+- Retry functionality.
+
+Navigation
+
+Implement:
+
+- Previous topic.
+- Next topic.
+- Related topics.
+- Category navigation.
+- Breadcrumb navigation.
+
+Responsive design
+
+Support:
+
+- Desktop.
+- Laptop.
+- Tablet.
+- Mobile.
+
+Mobile navigation must be practical and fully functional.
+
+8. ANIMATIONS AND MICROINTERACTIONS
+
+Use suitable animation technologies such as CSS animations, Framer Motion, or GSAP if supported by the project architecture.
+
+Implement:
+
+- Smooth page transitions.
+- Scroll-triggered reveals.
+- Image reveal effects.
+- Subtle parallax.
+- Animated geographical diagrams.
+- Interactive image hover effects.
+- Progress animations.
+- Smooth navigation transitions.
+- Subtle topographic background movement.
+- Animated geographical processes.
+
+Animations should feel sophisticated and purposeful.
+
+Respect reduced-motion accessibility preferences.
+
+Avoid excessive animation that compromises performance or readability.
+
+9. DATA ARCHITECTURE
+
+Build a scalable content architecture.
+
+Use structured JSON, TypeScript data files, or a database as appropriate.
+
+Each educational material must have a consistent structure.
+
+Example:
+
+{
+"id": "vulkanisme",
+"number": 21,
+"title": "Vulkanisme",
+"categoryId": "litosfer",
+"description": "Penjelasan mengenai aktivitas magma dan proses vulkanik.",
+"difficulty": "Intermediate",
+"keywords": [],
+"learningObjectives": [],
+"introduction": "",
+"sections": [],
+"classifications": [],
+"processes": [],
+"caseStudies": [],
+"visuals": [],
+"terminology": [],
+"summary": [],
+"quiz": [],
+"references": [],
+"relatedTopicIds": []
+}
+
+The actual implementation must contain complete content, not empty strings.
+
+Use unique, stable topic IDs.
+
+Maintain category-to-topic relationships.
+
+Do not duplicate topic IDs.
+
+10. TECHNICAL IMPLEMENTATION
+
+First inspect the existing Replit project structure.
+
+Preserve working functionality and architecture wherever possible.
+
+Do not unnecessarily replace an existing functional application.
+
+If the project is empty, establish an appropriate modern stack.
+
+Recommended technologies:
+
+- React.
+- TypeScript.
+- Vite or the existing supported framework.
+- Tailwind CSS.
+- Framer Motion.
+- Lucide icons.
+- Recharts for appropriate data visualizations.
+- Leaflet for interactive maps.
+- LocalStorage or IndexedDB for persistent learning progress and bookmarks.
+
+Use additional libraries only when they provide genuine value.
+
+Implementation requirements:
+
+- Reusable components.
+- Modular architecture.
+- Responsive layouts.
+- Clean code.
+- Consistent design tokens.
+- Accessible controls.
+- Proper loading and error states.
+- Functional routing.
+- Reliable state management.
+- Persistent user progress.
+
+Do not introduce unnecessary dependencies.
+
+Do not leave broken navigation, dead buttons, placeholder links, or nonfunctional interactive elements.
+
+If an external API requires an unavailable key, implement a graceful fallback rather than allowing the entire feature to fail.
+
+11. PERFORMANCE AND ACCESSIBILITY
+
+Optimize for:
+
+- Fast initial loading.
+- Lazy-loaded images.
+- Responsive image sizes.
+- Efficient rendering.
+- Minimal unnecessary dependencies.
+- Smooth mobile performance.
+
+Accessibility requirements:
+
+- Semantic HTML.
+- Keyboard navigation.
+- Visible focus states.
+- Sufficient contrast.
+- Descriptive image alt text.
+- Accessible form controls.
+- Reduced-motion support.
+
+12. STRICT CONTENT VALIDATION
+
+Before declaring the project complete, implement an automated validation script.
+
+The validation must check:
+
+1. Exactly 135 mandatory topic IDs are registered.
+2. All 135 topics have unique IDs.
+3. All 19 curriculum categories exist.
+4. Every category contains the correct topics.
+5. Every topic has a title and description.
+6. Every topic contains meaningful educational content.
+7. Every topic has learning objectives.
+8. Every topic has relevant terminology.
+9. Every topic has case studies or geographical examples.
+10. Every topic has visual learning material.
+11. Every topic has quiz questions.
+12. Every topic has references.
+13. Every topic has valid related topic IDs.
+14. All topic routes resolve correctly.
+15. Search indexes all 135 topics.
+16. Bookmark functionality works.
+17. Completion tracking works.
+18. Progress calculations are accurate.
+
+Create a completion report showing:
+
+- Total required topics: 135.
+- Total registered topics.
+- Total valid topics.
+- Total missing topics.
+- Total categories: 19.
+- Invalid content entries.
+- Broken topic routes.
+- Validation status.
+
+The website must not claim 100% completion if any required topic is missing or contains placeholder content.
+
+Create an automated script, for example:
+
+npm run validate-content
+
+Use meaningful validation rules rather than simply checking whether a string is nonempty.
+
+13. DEVELOPMENT WORKFLOW
+
+Follow this implementation sequence autonomously.
+
+Phase 1: Project inspection and architecture
+
+- Inspect the existing files.
+- Identify the existing framework.
+- Preserve functional architecture.
+- Establish the content structure.
+- Define the design system.
+
+Phase 2: Visual foundation
+
+- Build the homepage.
+- Establish typography and colors.
+- Implement photography and image backgrounds.
+- Create reusable editorial components.
+- Establish responsive navigation.
+
+Phase 3: Curriculum implementation
+
+- Create all 19 category structures.
+- Register all 135 topics.
+- Develop individual learning materials.
+- Add visualizations and quizzes.
+- Connect related topics.
+
+Phase 4: Functional implementation
+
+- Search.
+- Filtering.
+- Bookmarks.
+- Learning progress.
+- Quiz scoring.
+- Previous and next navigation.
+- Interactive atlas.
+- Visual laboratory.
+
+Phase 5: Validation and refinement
+
+- Run the content validation script.
+- Test navigation.
+- Test search.
+- Test progress persistence.
+- Test bookmarks.
+- Test quizzes.
+- Test mobile responsiveness.
+- Fix errors.
+- Improve visual consistency.
+- Verify all mandatory requirements.
+
+Do not stop after any individual phase.
+
+14. FINAL ACCEPTANCE CRITERIA
+
+ATLAS is considered complete only when:
+
+- All 135 Geography topics are implemented.
+- All 19 curriculum categories are accessible.
+- Every topic has its own detailed learning page.
+- Educational content is primarily in Bahasa Indonesia.
+- All interface elements are in English.
+- Search and filtering work across the entire curriculum.
+- Bookmarks work and persist.
+- Individual completion tracking works and persists.
+- Progress indicators display accurate values.
+- Quizzes work and provide explanations.
+- Interactive geographical visualizations are functional.
+- The Interactive Atlas is implemented.
+- The Visual Laboratory is implemented.
+- The design is cohesive, image-rich, and responsive.
+- The website has been tested on mobile and desktop.
+- Automated curriculum validation passes.
+- No mandatory topic is represented by placeholder content.
+
+IMPORTANT FINAL INSTRUCTION:
+
+Do not prioritize making a small number of pages exceptionally detailed while leaving the rest of the curriculum empty.
+
+Distribute development effort across all 135 topics.
+
+Do not use placeholder articles, repeated generic explanations, or superficial content to artificially satisfy the topic count.
+
+If the full implementation requires multiple development iterations, continue working through them within this project rather than stopping after presenting a partial result.
+
+Build the actual website, implement the actual features, run the validation, and fix the problems you discover.
+
+The final product should feel like a premium, comprehensive, interactive Geography encyclopedia.
+
+Build ATLAS.

@@ -1,0 +1,6 @@
+{
+  "name": "ATLAS — Interactive Geography Learning Platform",
+  "description": "Comprehensive Interactive Geography Encyclopedia and Learning Platform for high-school students, featuring 135 topics across 19 categories, interactive atlas, visual laboratory, quizzes, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
