@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ATLAS — Interactive Geography Encyclopedia
 
-# Run and deploy your AI Studio app
+**135 Geography topics** · English UI · Bahasa Indonesia content  
+Live: [gacoanlvl8.netlify.app](https://gacoanlvl8.netlify.app)
 
-This contains everything you need to run your app locally.
+Premium interactive learning platform for high-school and independent Geography study.
 
-View your app in AI Studio: https://ai.studio/apps/a9d66d41-0269-458f-b265-fb94c51f759d
+## Features
+
+- **135 complete topics** across 19 curriculum categories (A–S)
+- English interface · Indonesian educational materials
+- Structured lessons: Pengantar, Tujuan, Konsep, Pembahasan, Klasifikasi, Contoh, Quiz
+- **Visual Lab** — photo-based interactive layers
+- **3D Geo Laboratory** (Three.js)
+- Interactive Atlas (Leaflet)
+- Progress tracking & bookmarks
+- Search + category + difficulty filters
+
+## Tech Stack
+
+- React 19 + Vite 8 · Tailwind CSS 4 · Motion · Three.js · Leaflet · Netlify
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+npm run dev
